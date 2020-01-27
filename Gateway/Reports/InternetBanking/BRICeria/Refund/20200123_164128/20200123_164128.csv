@@ -1,0 +1,80 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Refund,,,2020-01-23 16:41:30,2020-01-23 16:41:57,26.903s,FAILED
+,,,,,,
+Test Cases/Cancellation/BRI Ceria/TC01-SuccessRefund,,,2020-01-23 16:41:30,2020-01-23 16:41:37,6.172s,FAILED
+INVOICENUMBER = Utils.generateInvoice(),,,2020-01-23 16:41:31,2020-01-23 16:41:31,0.012s,PASSED
+"sessionId = Utils.generateInvoice() + ""321""",,,2020-01-23 16:41:31,2020-01-23 16:41:31,0.001s,PASSED
+"refidmerchant = Utils.generateInvoice() + ""123""",,,2020-01-23 16:41:31,2020-01-23 16:41:31,0.001s,PASSED
+"callTestCase(findTestCase(""InternetBanking/BRI Ceria/TC01-Payment""), [""SERVICEID"":""1"", ""ACQUIRERID"":""1024"", ""MALLID"":""1"", ""CHAINMALLID"":"""", ""INVOICENUMBER"":INVOICENUMBER, ""CURRENCY"":""IDR"", ""AMOUNT"":""600000.00"", ... ], CONTINUE_ON_FAILURE)",,Payment Process,2020-01-23 16:41:31,2020-01-23 16:41:36,4.581s,PASSED
+com.database.DBHelper.connectDBPostgres(),,,2020-01-23 16:41:36,2020-01-23 16:41:36,0.354s,PASSED
+"com.database.DBHelper.execute(""update transaction set payment_host_auth_id = '"" + paymentHostAuthId + ""' where invoice_number = '"" + INVOICENUMBER + ""'"")",,,2020-01-23 16:41:36,2020-01-23 16:41:36,0.024s,PASSED
+"com.database.DBHelper.execute(""update acquirer set void_url = '"" + refundUrlBriCeria + ""' where id = '1024'"")",,,2020-01-23 16:41:36,2020-01-23 16:41:36,0.009s,PASSED
+i = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,2020-01-23 16:41:36,2020-01-23 16:41:36,0.001s,PASSED
+j = 0,,,2020-01-23 16:41:36,2020-01-23 16:41:36,0.001s,PASSED
+i = ((flag == retry)) ? 3 : 1,,,2020-01-23 16:41:36,2020-01-23 16:41:36,0.000s,PASSED
+"for ([j = 0, j < i, (j++)])",,Refund Process,2020-01-23 16:41:36,2020-01-23 16:41:37,0.544s,FAILED
+,,,,,,
+Test Cases/Cancellation/BRI Ceria/TC01-SuccessRefund,,,2020-01-23 16:41:37,2020-01-23 16:41:38,1.709s,FAILED
+INVOICENUMBER = Utils.generateInvoice(),,,2020-01-23 16:41:37,2020-01-23 16:41:37,0.001s,PASSED
+"sessionId = Utils.generateInvoice() + ""321""",,,2020-01-23 16:41:37,2020-01-23 16:41:37,0.000s,PASSED
+"refidmerchant = Utils.generateInvoice() + ""123""",,,2020-01-23 16:41:37,2020-01-23 16:41:37,0.000s,PASSED
+"callTestCase(findTestCase(""InternetBanking/BRI Ceria/TC01-Payment""), [""SERVICEID"":""1"", ""ACQUIRERID"":""1024"", ""MALLID"":""1"", ""CHAINMALLID"":"""", ""INVOICENUMBER"":INVOICENUMBER, ""CURRENCY"":""IDR"", ""AMOUNT"":""600000.00"", ... ], CONTINUE_ON_FAILURE)",,Payment Process,2020-01-23 16:41:37,2020-01-23 16:41:38,1.448s,PASSED
+com.database.DBHelper.connectDBPostgres(),,,2020-01-23 16:41:38,2020-01-23 16:41:38,0.014s,PASSED
+"com.database.DBHelper.execute(""update transaction set payment_host_auth_id = '"" + paymentHostAuthId + ""' where invoice_number = '"" + INVOICENUMBER + ""'"")",,,2020-01-23 16:41:38,2020-01-23 16:41:38,0.006s,PASSED
+"com.database.DBHelper.execute(""update acquirer set void_url = '"" + refundUrlBriCeria + ""' where id = '1024'"")",,,2020-01-23 16:41:38,2020-01-23 16:41:38,0.003s,PASSED
+i = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,2020-01-23 16:41:38,2020-01-23 16:41:38,0.000s,PASSED
+j = 0,,,2020-01-23 16:41:38,2020-01-23 16:41:38,0.000s,PASSED
+i = ((flag == retry)) ? 3 : 1,,,2020-01-23 16:41:38,2020-01-23 16:41:38,0.000s,PASSED
+"for ([j = 0, j < i, (j++)])",,Refund Process,2020-01-23 16:41:38,2020-01-23 16:41:38,0.191s,FAILED
+,,,,,,
+Test Cases/Cancellation/BRI Ceria/TC01-SuccessRefund,,,2020-01-23 16:41:38,2020-01-23 16:41:40,1.997s,FAILED
+INVOICENUMBER = Utils.generateInvoice(),,,2020-01-23 16:41:38,2020-01-23 16:41:38,0.000s,PASSED
+"sessionId = Utils.generateInvoice() + ""321""",,,2020-01-23 16:41:38,2020-01-23 16:41:38,0.000s,PASSED
+"refidmerchant = Utils.generateInvoice() + ""123""",,,2020-01-23 16:41:38,2020-01-23 16:41:38,0.001s,PASSED
+"callTestCase(findTestCase(""InternetBanking/BRI Ceria/TC01-Payment""), [""SERVICEID"":""1"", ""ACQUIRERID"":""1024"", ""MALLID"":""1"", ""CHAINMALLID"":"""", ""INVOICENUMBER"":INVOICENUMBER, ""CURRENCY"":""IDR"", ""AMOUNT"":""600000.00"", ... ], CONTINUE_ON_FAILURE)",,Payment Process,2020-01-23 16:41:38,2020-01-23 16:41:40,1.667s,PASSED
+com.database.DBHelper.connectDBPostgres(),,,2020-01-23 16:41:40,2020-01-23 16:41:40,0.015s,PASSED
+"com.database.DBHelper.execute(""update transaction set payment_host_auth_id = '"" + paymentHostAuthId + ""' where invoice_number = '"" + INVOICENUMBER + ""'"")",,,2020-01-23 16:41:40,2020-01-23 16:41:40,0.004s,PASSED
+"com.database.DBHelper.execute(""update acquirer set void_url = '"" + refundUrlBriCeria + ""' where id = '1024'"")",,,2020-01-23 16:41:40,2020-01-23 16:41:40,0.005s,PASSED
+i = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,2020-01-23 16:41:40,2020-01-23 16:41:40,0.001s,PASSED
+j = 0,,,2020-01-23 16:41:40,2020-01-23 16:41:40,0.000s,PASSED
+i = ((flag == retry)) ? 3 : 1,,,2020-01-23 16:41:40,2020-01-23 16:41:40,0.000s,PASSED
+"for ([j = 0, j < i, (j++)])",,Refund Process,2020-01-23 16:41:40,2020-01-23 16:41:40,0.249s,FAILED
+,,,,,,
+Test Cases/Cancellation/BRI Ceria/TC01-SuccessRefund,,,2020-01-23 16:41:40,2020-01-23 16:41:44,3.446s,FAILED
+INVOICENUMBER = Utils.generateInvoice(),,,2020-01-23 16:41:40,2020-01-23 16:41:40,0.002s,PASSED
+"sessionId = Utils.generateInvoice() + ""321""",,,2020-01-23 16:41:40,2020-01-23 16:41:40,0.000s,PASSED
+"refidmerchant = Utils.generateInvoice() + ""123""",,,2020-01-23 16:41:40,2020-01-23 16:41:40,0.001s,PASSED
+"callTestCase(findTestCase(""InternetBanking/BRI Ceria/TC01-Payment""), [""SERVICEID"":""1"", ""ACQUIRERID"":""1024"", ""MALLID"":""1"", ""CHAINMALLID"":"""", ""INVOICENUMBER"":INVOICENUMBER, ""CURRENCY"":""IDR"", ""AMOUNT"":""600000.00"", ... ], CONTINUE_ON_FAILURE)",,Payment Process,2020-01-23 16:41:40,2020-01-23 16:41:42,1.379s,PASSED
+com.database.DBHelper.connectDBPostgres(),,,2020-01-23 16:41:42,2020-01-23 16:41:42,0.017s,PASSED
+"com.database.DBHelper.execute(""update transaction set payment_host_auth_id = '"" + paymentHostAuthId + ""' where invoice_number = '"" + INVOICENUMBER + ""'"")",,,2020-01-23 16:41:42,2020-01-23 16:41:42,0.004s,PASSED
+"com.database.DBHelper.execute(""update acquirer set void_url = '"" + refundUrlBriCeria + ""' where id = '1024'"")",,,2020-01-23 16:41:42,2020-01-23 16:41:42,0.003s,PASSED
+i = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,2020-01-23 16:41:42,2020-01-23 16:41:42,0.000s,PASSED
+j = 0,,,2020-01-23 16:41:42,2020-01-23 16:41:42,0.000s,PASSED
+i = ((flag == retry)) ? 3 : 1,,,2020-01-23 16:41:42,2020-01-23 16:41:42,0.000s,PASSED
+"for ([j = 0, j < i, (j++)])",,Refund Process,2020-01-23 16:41:42,2020-01-23 16:41:44,1.958s,FAILED
+,,,,,,
+Test Cases/Cancellation/BRI Ceria/TC01-SuccessRefund,,,2020-01-23 16:41:44,2020-01-23 16:41:53,8.813s,FAILED
+INVOICENUMBER = Utils.generateInvoice(),,,2020-01-23 16:41:44,2020-01-23 16:41:44,0.000s,PASSED
+"sessionId = Utils.generateInvoice() + ""321""",,,2020-01-23 16:41:44,2020-01-23 16:41:44,0.001s,PASSED
+"refidmerchant = Utils.generateInvoice() + ""123""",,,2020-01-23 16:41:44,2020-01-23 16:41:44,0.000s,PASSED
+"callTestCase(findTestCase(""InternetBanking/BRI Ceria/TC01-Payment""), [""SERVICEID"":""1"", ""ACQUIRERID"":""1024"", ""MALLID"":""1"", ""CHAINMALLID"":"""", ""INVOICENUMBER"":INVOICENUMBER, ""CURRENCY"":""IDR"", ""AMOUNT"":""600000.00"", ... ], CONTINUE_ON_FAILURE)",,Payment Process,2020-01-23 16:41:44,2020-01-23 16:41:45,1.620s,PASSED
+com.database.DBHelper.connectDBPostgres(),,,2020-01-23 16:41:45,2020-01-23 16:41:45,0.008s,PASSED
+"com.database.DBHelper.execute(""update transaction set payment_host_auth_id = '"" + paymentHostAuthId + ""' where invoice_number = '"" + INVOICENUMBER + ""'"")",,,2020-01-23 16:41:45,2020-01-23 16:41:45,0.005s,PASSED
+"com.database.DBHelper.execute(""update acquirer set void_url = '"" + refundUrlBriCeria + ""' where id = '1024'"")",,,2020-01-23 16:41:45,2020-01-23 16:41:45,0.004s,PASSED
+i = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,2020-01-23 16:41:45,2020-01-23 16:41:45,0.000s,PASSED
+j = 0,,,2020-01-23 16:41:45,2020-01-23 16:41:45,0.000s,PASSED
+i = ((flag == retry)) ? 3 : 1,,,2020-01-23 16:41:45,2020-01-23 16:41:45,0.000s,PASSED
+"for ([j = 0, j < i, (j++)])",,Refund Process,2020-01-23 16:41:45,2020-01-23 16:41:49,3.388s,FAILED
+,,,,,,
+Test Cases/Cancellation/BRI Ceria/TC01-SuccessRefund,,,2020-01-23 16:41:53,2020-01-23 16:41:57,4.435s,FAILED
+INVOICENUMBER = Utils.generateInvoice(),,,2020-01-23 16:41:53,2020-01-23 16:41:53,0.001s,PASSED
+"sessionId = Utils.generateInvoice() + ""321""",,,2020-01-23 16:41:53,2020-01-23 16:41:53,0.000s,PASSED
+"refidmerchant = Utils.generateInvoice() + ""123""",,,2020-01-23 16:41:53,2020-01-23 16:41:53,0.001s,PASSED
+"callTestCase(findTestCase(""InternetBanking/BRI Ceria/TC01-Payment""), [""SERVICEID"":""1"", ""ACQUIRERID"":""1024"", ""MALLID"":""1"", ""CHAINMALLID"":"""", ""INVOICENUMBER"":INVOICENUMBER, ""CURRENCY"":""IDR"", ""AMOUNT"":""600000.00"", ... ], CONTINUE_ON_FAILURE)",,Payment Process,2020-01-23 16:41:53,2020-01-23 16:41:54,1.750s,PASSED
+com.database.DBHelper.connectDBPostgres(),,,2020-01-23 16:41:54,2020-01-23 16:41:54,0.010s,PASSED
+"com.database.DBHelper.execute(""update transaction set payment_host_auth_id = '"" + paymentHostAuthId + ""' where invoice_number = '"" + INVOICENUMBER + ""'"")",,,2020-01-23 16:41:54,2020-01-23 16:41:54,0.004s,PASSED
+"com.database.DBHelper.execute(""update acquirer set void_url = '"" + refundUrlBriCeria + ""' where id = '1024'"")",,,2020-01-23 16:41:54,2020-01-23 16:41:54,0.003s,PASSED
+i = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,2020-01-23 16:41:54,2020-01-23 16:41:54,0.000s,PASSED
+j = 0,,,2020-01-23 16:41:54,2020-01-23 16:41:54,0.000s,PASSED
+i = ((flag == retry)) ? 3 : 1,,,2020-01-23 16:41:54,2020-01-23 16:41:54,0.000s,PASSED
+"for ([j = 0, j < i, (j++)])",,Refund Process,2020-01-23 16:41:54,2020-01-23 16:41:57,2.606s,FAILED

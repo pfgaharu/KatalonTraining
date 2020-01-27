@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Payment,,,2020-01-23 09:49:50,2020-01-23 09:49:53,3.750s,ERROR
+,,,,,,
+Test Cases/InternetBanking/BRI Ceria/TC01-Payment,,,2020-01-23 09:49:50,2020-01-23 09:49:53,3.353s,ERROR
+"containerEnv = System.getenv(""CONTAINER_ENV"")",,,2020-01-23 09:49:51,2020-01-23 09:49:51,0.002s,PASSED
+"println(""CONTAINER_DEV: "" + containerEnv)",,,2020-01-23 09:49:51,2020-01-23 09:49:51,0.003s,PASSED
+"callTestCase(findTestCase(""InternetBanking/tc-ServiceRequestPayment""), [""SERVICEID"":SERVICEID, ""ACQUIRERID"":ACQUIRERID, ""MALLID"":MALLID, ""CHAINMALLID"":CHAINMALLID, ""INVOICENUMBER"":INVOICENUMBER, ... ], STOP_ON_FAILURE)",,,2020-01-23 09:49:51,2020-01-23 09:49:53,2.523s,ERROR

@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Refund,,,2020-01-23 14:09:06,2020-01-23 14:09:20,14.898s,FAILED
+,,,,,,
+Test Cases/Cancellation/BRI Ceria/TC01-SuccessRefund,,,2020-01-23 14:09:06,2020-01-23 14:09:20,14.491s,FAILED
+INVOICENUMBER = Utils.generateInvoice(),,,2020-01-23 14:09:07,2020-01-23 14:09:07,0.011s,PASSED
+"sessionId = Utils.generateInvoice() + ""321""",,,2020-01-23 14:09:07,2020-01-23 14:09:07,0.000s,PASSED
+"callTestCase(findTestCase(""InternetBanking/BRI Ceria/TC01-Payment""), [""SERVICEID"":""1"", ""ACQUIRERID"":""1024"", ""MALLID"":""1"", ""CHAINMALLID"":"""", ""INVOICENUMBER"":INVOICENUMBER, ""CURRENCY"":""IDR"", ""AMOUNT"":""600000.00"", ... ], CONTINUE_ON_FAILURE)",,,2020-01-23 14:09:07,2020-01-23 14:09:19,12.494s,PASSED
+com.database.DBHelper.connectDBPostgres(),,,2020-01-23 14:09:19,2020-01-23 14:09:20,0.529s,PASSED
+"com.database.DBHelper.execute(""update transaction set payment_host_auth_id = '"" + paymentHostAuthId + ""' where invoice_number = '"" + INVOICENUMBER + ""'"")",,,2020-01-23 14:09:20,2020-01-23 14:09:20,0.030s,PASSED
+"com.database.DBHelper.execute(""update acquirer set void_url = '"" + refundUrlBriCeria + ""' where id = '1024'"")",,,2020-01-23 14:09:20,2020-01-23 14:09:20,0.041s,PASSED
+"refidmerchant = Utils.generateInvoice() + ""123""",,,2020-01-23 14:09:20,2020-01-23 14:09:20,0.002s,PASSED
+sb = new java.lang.StringBuilder(),,,2020-01-23 14:09:20,2020-01-23 14:09:20,0.005s,PASSED
+append(refidmerchant).append(SESSIONID),,,2020-01-23 14:09:20,2020-01-23 14:09:20,0.001s,PASSED
+words = Utils.generateWords(sb.toString()),,,2020-01-23 14:09:20,2020-01-23 14:09:20,0.010s,PASSED
+i = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,2020-01-23 14:09:20,2020-01-23 14:09:20,0.000s,PASSED
+j = 0,,,2020-01-23 14:09:20,2020-01-23 14:09:20,0.001s,PASSED
+i = ((flag == retry)) ? 2 : 1,,,2020-01-23 14:09:20,2020-01-23 14:09:20,0.001s,PASSED
+"for ([j = 0, j < i, (j++)])",,Payment,2020-01-23 14:09:20,2020-01-23 14:09:20,0.679s,FAILED

@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Refund,,,2020-01-23 15:37:17,2020-01-23 15:37:30,13.244s,ERROR
+,,,,,,
+Test Cases/Cancellation/BRI Ceria/TC01-SuccessRefund,,,2020-01-23 15:37:18,2020-01-23 15:37:30,12.869s,ERROR
+INVOICENUMBER = Utils.generateInvoice(),,,2020-01-23 15:37:18,2020-01-23 15:37:18,0.012s,PASSED
+"sessionId = Utils.generateInvoice() + ""321""",,,2020-01-23 15:37:18,2020-01-23 15:37:18,0.001s,PASSED
+"refidmerchant = Utils.generateInvoice() + ""123""",,,2020-01-23 15:37:18,2020-01-23 15:37:18,0.001s,PASSED
+"callTestCase(findTestCase(""InternetBanking/BRI Ceria/TC01-Payment""), [""SERVICEID"":""1"", ""ACQUIRERID"":""1024"", ""MALLID"":""1"", ""CHAINMALLID"":"""", ""INVOICENUMBER"":INVOICENUMBER, ""CURRENCY"":""IDR"", ""AMOUNT"":""600000.00"", ... ], CONTINUE_ON_FAILURE)",,,2020-01-23 15:37:18,2020-01-23 15:37:30,11.639s,PASSED
+com.database.DBHelper.connectDBPostgres(),,,2020-01-23 15:37:30,2020-01-23 15:37:30,0.416s,PASSED
+"com.database.DBHelper.execute(""update transaction set payment_host_auth_id = '"" + paymentHostAuthId + ""' where invoice_number = '"" + INVOICENUMBER + ""'"")",,,2020-01-23 15:37:30,2020-01-23 15:37:30,0.023s,PASSED
+"com.database.DBHelper.execute(""update acquirer set void_url = '"" + refundUrlBriCeria + ""' where id = '1024'"")",,,2020-01-23 15:37:30,2020-01-23 15:37:30,0.004s,PASSED
+sb = new java.lang.StringBuilder(),,,2020-01-23 15:37:30,2020-01-23 15:37:30,0.005s,PASSED
+append(refidmerchant).append(sessionId),,,2020-01-23 15:37:30,2020-01-23 15:37:30,0.008s,ERROR

@@ -1,0 +1,2047 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205080</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/InternetBanking/BRI Ceria/Payment</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Payment</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/InternetBanking/BRI Ceria/Payment</property>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205098</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = prant - 172.17.100.63</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">prant - 172.17.100.63</property>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205099</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Mac OS X 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Mac OS X 64bit</property>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205099</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 172.17.100.63</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">172.17.100.63</property>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205100</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 7.2.2.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">7.2.2.1</property>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205299</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/InternetBanking/BRI Ceria/TC01-Payment</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/InternetBanking/BRI Ceria/TC01-Payment</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/InternetBanking/BRI Ceria/TC01-Payment</property>
+  <property name="source">\\Users\\prant\\project\\gateway-automatedtest\\Gateway\\Test Cases\\InternetBanking\\BRI Ceria\\TC01-Payment.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205323</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SERVICEID = 1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205323</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ACQUIRERID = 1024</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205323</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>MALLID = 1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205324</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CHAINMALLID = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205324</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>INVOICENUMBER = a1VwBe6U1lyZqmF1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205324</millis>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CURRENCY = IDR</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205325</millis>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>AMOUNT = 600000.00</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205326</millis>
+  <sequence>14</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SESSIONID = gy7a9f79abt7f9af97tfd89afdafdsa</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205327</millis>
+  <sequence>15</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>WORDS = 4b034c12175e62bfa25d977244ea1edc6db4e9d4</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205327</millis>
+  <sequence>16</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>BASKET = Movie FEMALE AGENTS,600000.00,1,600000.00</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205329</millis>
+  <sequence>17</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>DESCRIPTION = Payment Description</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205329</millis>
+  <sequence>18</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>AUTH1 = 085722915368</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205330</millis>
+  <sequence>19</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>AUTH2 = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205330</millis>
+  <sequence>20</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>AUTH3 = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205331</millis>
+  <sequence>21</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>AUTH4 = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205331</millis>
+  <sequence>22</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CUSTOMERNAME = Dadang Setiadji</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205332</millis>
+  <sequence>23</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CUSTOMEREMAIL = taufik@nsiapay.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205332</millis>
+  <sequence>24</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CUSTOMERMOBILEPHONE = 6281808903132</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205332</millis>
+  <sequence>25</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>TRANSACTIONTYPE = S</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205391</millis>
+  <sequence>26</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) CUSTOMERIDENTIFIERNUMBER = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205400</millis>
+  <sequence>27</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) PAYMENTTYPE = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205400</millis>
+  <sequence>28</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CUSTOMERREGION = Jakarta</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205401</millis>
+  <sequence>29</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CUSTOMERCITY = Jakarta</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205401</millis>
+  <sequence>30</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CUSTOMERADDRESS = Jawa Timur</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205402</millis>
+  <sequence>31</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CUSTOMERZIPCODE = 16406785</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205402</millis>
+  <sequence>32</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SHIPPING_ADDRESS = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205402</millis>
+  <sequence>33</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SHIPPING_CITY = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205403</millis>
+  <sequence>34</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SHIPPING_ZIPCODE = 16406785</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205403</millis>
+  <sequence>35</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SHIPPING_COUNTRY = INDONESIA</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205404</millis>
+  <sequence>36</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>AIRLINESDATA = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205404</millis>
+  <sequence>37</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>STOREID = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205404</millis>
+  <sequence>38</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SERVICETRANSACTIONID = qwertyuiop098765431</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205405</millis>
+  <sequence>39</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ADDITIONALAMOUNT = 600000.00</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205405</millis>
+  <sequence>40</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CUSTOMERCOUNTRY = ID</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205405</millis>
+  <sequence>41</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CUSTOMERHOMEPHONE = 6281808903132</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205405</millis>
+  <sequence>42</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CUSTOMERWORKPHONE = 6281808903132</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205406</millis>
+  <sequence>43</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CUSTOMERBIRTHDAY = 20101997</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205406</millis>
+  <sequence>44</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>PAYMENTAPPROVALCODE = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205406</millis>
+  <sequence>45</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>TRXCODE = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205407</millis>
+  <sequence>46</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>NOTE = SUCCESS Normal Payment</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205407</millis>
+  <sequence>47</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>RESPONSE_RESULT = REDIRECT</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205407</millis>
+  <sequence>48</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>RESPONSE_MESSAGE = PLEASE REDIRECT TO redirectUrl FOR CONTINUE THE PAYMENT</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205407</millis>
+  <sequence>49</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>RESPONSE_ERRORCODE = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205414</millis>
+  <sequence>50</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) DB_NOTIFYURL = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205414</millis>
+  <sequence>51</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>DB_INITPAYMENTURL = https://partner.api.bri.co.id/oauth/client_credential/accesstoken?grant_type=client_credentials</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205415</millis>
+  <sequence>52</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>DB_PAYMENTURL = https://partner.api.bri.co.id/ceria-sandbox/v1/merchant/charges</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205425</millis>
+  <sequence>53</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) NOTIFYSTATUS = SUCCESS</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205435</millis>
+  <sequence>54</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) RESPONSE_NOTIFY_STATUS = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205443</millis>
+  <sequence>55</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) RESPONSE_NOTIFY_MESSAGE = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205449</millis>
+  <sequence>56</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) JSON_AMOUNT = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205456</millis>
+  <sequence>57</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) JSON_STATUS = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205985</millis>
+  <sequence>58</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : containerEnv = System.getenv(\&amp;quot;CONTAINER_ENV\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205989</millis>
+  <sequence>59</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : containerEnv = System.getenv(\&amp;quot;CONTAINER_ENV\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205990</millis>
+  <sequence>60</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(\&amp;quot;CONTAINER_DEV: \&amp;quot; + containerEnv)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205997</millis>
+  <sequence>61</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(\&amp;quot;CONTAINER_DEV: \&amp;quot; + containerEnv)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:25</date>
+  <millis>1579749205997</millis>
+  <sequence>62</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : callTestCase(findTestCase(\&amp;quot;InternetBanking/tc-ServiceRequestPayment\&amp;quot;), [\&amp;quot;SERVICEID\&amp;quot;:SERVICEID, \&amp;quot;ACQUIRERID\&amp;quot;:ACQUIRERID, \&amp;quot;MALLID\&amp;quot;:MALLID, \&amp;quot;CHAINMALLID\&amp;quot;:CHAINMALLID, \&amp;quot;INVOICENUMBER\&amp;quot;:INVOICENUMBER, ... ], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206121</millis>
+  <sequence>65</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/InternetBanking/tc-ServiceRequestPayment</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="name">Test Cases/InternetBanking/tc-ServiceRequestPayment</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/InternetBanking/tc-ServiceRequestPayment</property>
+  <property name="source">\\Users\\prant\\project\\gateway-automatedtest\\Gateway\\Test Cases\\InternetBanking\\tc-ServiceRequestPayment.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206129</millis>
+  <sequence>67</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SERVICEID = 1</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206129</millis>
+  <sequence>68</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ACQUIRERID = 1024</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206130</millis>
+  <sequence>69</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>MALLID = 1</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206130</millis>
+  <sequence>70</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CHAINMALLID = </message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206130</millis>
+  <sequence>71</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>INVOICENUMBER = a1VwBe6U1lyZqmF1</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206130</millis>
+  <sequence>72</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CURRENCY = IDR</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206130</millis>
+  <sequence>73</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>AMOUNT = 600000.00</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206131</millis>
+  <sequence>74</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SESSIONID = gy7a9f79abt7f9af97tfd89afdafdsa</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206131</millis>
+  <sequence>75</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>WORDS = 4b034c12175e62bfa25d977244ea1edc6db4e9d4</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206131</millis>
+  <sequence>76</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>BASKET = Movie FEMALE AGENTS,600000.00,1,600000.00</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206131</millis>
+  <sequence>77</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>DESCRIPTION = Payment Description</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206131</millis>
+  <sequence>78</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>AUTH1 = 085722915368</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206131</millis>
+  <sequence>79</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>AUTH2 = </message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206132</millis>
+  <sequence>80</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>AUTH3 = </message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206132</millis>
+  <sequence>81</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>AUTH4 = </message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206132</millis>
+  <sequence>82</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CUSTOMERNAME = Dadang Setiadji</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206132</millis>
+  <sequence>83</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CUSTOMEREMAIL = taufik@nsiapay.com</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206132</millis>
+  <sequence>84</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CUSTOMERMOBILEPHONE = 6281808903132</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206132</millis>
+  <sequence>85</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>TRANSACTIONTYPE = S</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206133</millis>
+  <sequence>86</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CUSTOMERIDENTIFIERNUMBER = </message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206133</millis>
+  <sequence>87</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>PAYMENTTYPE = </message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206133</millis>
+  <sequence>88</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CUSTOMERREGION = Jakarta</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206133</millis>
+  <sequence>89</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CUSTOMERCITY = Jakarta</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206133</millis>
+  <sequence>90</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CUSTOMERADDRESS = Jawa Timur</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206134</millis>
+  <sequence>91</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CUSTOMERZIPCODE = 16406785</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206134</millis>
+  <sequence>92</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SHIPPING_ADDRESS = </message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206135</millis>
+  <sequence>93</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SHIPPING_CITY = </message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206137</millis>
+  <sequence>94</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SHIPPING_ZIPCODE = 16406785</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206138</millis>
+  <sequence>95</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SHIPPING_COUNTRY = INDONESIA</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206138</millis>
+  <sequence>96</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>AIRLINESDATA = </message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206139</millis>
+  <sequence>97</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>STOREID = </message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206139</millis>
+  <sequence>98</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>DB_NOTIFYURL = </message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206139</millis>
+  <sequence>99</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>DB_INITPAYMENTURL = https://partner.api.bri.co.id/oauth/client_credential/accesstoken?grant_type=client_credentials</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206139</millis>
+  <sequence>100</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>DB_PAYMENTURL = https://partner.api.bri.co.id/ceria-sandbox/v1/merchant/charges</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206483</millis>
+  <sequence>101</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : containerEnv = System.getenv(\&amp;quot;CONTAINER_ENV\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206486</millis>
+  <sequence>102</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : containerEnv = System.getenv(\&amp;quot;CONTAINER_ENV\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206486</millis>
+  <sequence>103</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(\&amp;quot;CONTAINER_DEV: \&amp;quot; + containerEnv)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206491</millis>
+  <sequence>104</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(\&amp;quot;CONTAINER_DEV: \&amp;quot; + containerEnv)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206492</millis>
+  <sequence>105</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : paymentReq = findTestObject(\&amp;quot;InternetBanking/or-ServiceRequestPayment\&amp;quot;, [\&amp;quot;SERVICEID\&amp;quot;:SERVICEID, \&amp;quot;ACQUIRERID\&amp;quot;:ACQUIRERID, \&amp;quot;MALLID\&amp;quot;:MALLID, \&amp;quot;CHAINMALLID\&amp;quot;:CHAINMALLID, \&amp;quot;INVOICENUMBER\&amp;quot;:INVOICENUMBER, ... ])</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">39</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206565</millis>
+  <sequence>107</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : paymentReq = findTestObject(\&amp;quot;InternetBanking/or-ServiceRequestPayment\&amp;quot;, [\&amp;quot;SERVICEID\&amp;quot;:SERVICEID, \&amp;quot;ACQUIRERID\&amp;quot;:ACQUIRERID, \&amp;quot;MALLID\&amp;quot;:MALLID, \&amp;quot;CHAINMALLID\&amp;quot;:CHAINMALLID, \&amp;quot;INVOICENUMBER\&amp;quot;:INVOICENUMBER, ... ])</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:26</date>
+  <millis>1579749206565</millis>
+  <sequence>108</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(paymentReq)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">51</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208121</millis>
+  <sequence>111</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/prant/project/gateway-automatedtest/Gateway/Reports/InternetBanking/BRI Ceria/Payment/20200123_101322/requests/main/0.har</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="harId">75be4949-f656-4df8-884c-9f0b7995720c</property>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208201</millis>
+  <sequence>112</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208201</millis>
+  <sequence>113</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(paymentReq)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208201</millis>
+  <sequence>114</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : comment(response.getResponseBodyContent())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">52</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208210</millis>
+  <sequence>115</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>&amp;lt;MIBPaymentResponse&amp;gt;\n  &amp;lt;mallId&amp;gt;1&amp;lt;/mallId&amp;gt;\n  &amp;lt;trxCode&amp;gt;cecf067013f6bcf829b02a10796502de77f5c983&amp;lt;/trxCode&amp;gt;\n  &amp;lt;auth1&amp;gt;085722915368&amp;lt;/auth1&amp;gt;\n  &amp;lt;invoiceNumber&amp;gt;a1VwBe6U1lyZqmF1&amp;lt;/invoiceNumber&amp;gt;\n  &amp;lt;amount&amp;gt;600000.00&amp;lt;/amount&amp;gt;\n  &amp;lt;currency&amp;gt;IDR&amp;lt;/currency&amp;gt;\n  &amp;lt;sessionId&amp;gt;gy7a9f79abt7f9af97tfd89afdafdsa&amp;lt;/sessionId&amp;gt;\n  &amp;lt;paymentDate&amp;gt;20200123171327&amp;lt;/paymentDate&amp;gt;\n  &amp;lt;result&amp;gt;REDIRECT&amp;lt;/result&amp;gt;\n  &amp;lt;approvalCode&amp;gt;5e290fbcfeb2bc5bd0ac11e3&amp;lt;/approvalCode&amp;gt;\n  &amp;lt;message&amp;gt;PLEASE REDIRECT TO redirectUrl FOR CONTINUE THE PAYMENT&amp;lt;/message&amp;gt;\n  &amp;lt;redirectUrl&amp;gt;http://ceria-payment-sandbox.bri.co.id:3001/simulation/5e290fbcfeb2bc5bd0ac11e3&amp;lt;/redirectUrl&amp;gt;\n  &amp;lt;redirectParameter/&amp;gt;\n  &amp;lt;paymentSystrace&amp;gt;8105&amp;lt;/paymentSystrace&amp;gt;\n&amp;lt;/MIBPaymentResponse&amp;gt;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208210</millis>
+  <sequence>116</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : comment(response.getResponseBodyContent())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208210</millis>
+  <sequence>117</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(response.getStatusCode())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">53</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208211</millis>
+  <sequence>118</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(response.getStatusCode())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208211</millis>
+  <sequence>119</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : G_responseServiceRequestPayment = \&amp;quot;\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">66</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208338</millis>
+  <sequence>120</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : G_responseServiceRequestPayment = \&amp;quot;\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208338</millis>
+  <sequence>121</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : try</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">67</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208340</millis>
+  <sequence>122</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response.setContentType(\&amp;quot;text/xml\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">68</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208341</millis>
+  <sequence>123</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response.setContentType(\&amp;quot;text/xml\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208341</millis>
+  <sequence>124</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementText(response, \&amp;quot;MIBPaymentResponse.mallId\&amp;quot;, MALLID)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">69</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208401</millis>
+  <sequence>126</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify element text successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208402</millis>
+  <sequence>127</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementText(response, \&amp;quot;MIBPaymentResponse.mallId\&amp;quot;, MALLID)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208403</millis>
+  <sequence>128</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : G_responseServiceRequestPayment = response</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">70</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208403</millis>
+  <sequence>129</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : G_responseServiceRequestPayment = response</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208404</millis>
+  <sequence>130</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : G_invoiceNumber = utils.Utils.getXmlPropertyValue(response, \&amp;quot;invoiceNumber\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">71</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208414</millis>
+  <sequence>131</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>utils.Utils.getXmlPropertyValue is PASSED</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208415</millis>
+  <sequence>132</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : G_invoiceNumber = utils.Utils.getXmlPropertyValue(response, \&amp;quot;invoiceNumber\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208415</millis>
+  <sequence>133</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : G_trxCode = utils.Utils.getXmlPropertyValue(response, \&amp;quot;trxCode\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">72</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208418</millis>
+  <sequence>134</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>utils.Utils.getXmlPropertyValue is PASSED</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208419</millis>
+  <sequence>135</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : G_trxCode = utils.Utils.getXmlPropertyValue(response, \&amp;quot;trxCode\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208419</millis>
+  <sequence>136</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : G_redirectUrl = utils.Utils.getXmlPropertyValue(response, \&amp;quot;redirectUrl\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">73</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208428</millis>
+  <sequence>137</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>utils.Utils.getXmlPropertyValue is PASSED</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208428</millis>
+  <sequence>138</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : G_redirectUrl = utils.Utils.getXmlPropertyValue(response, \&amp;quot;redirectUrl\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208428</millis>
+  <sequence>139</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : G_paymentHostRefNumber = utils.Utils.getXmlPropertyValue(response, \&amp;quot;paymentHostRefNumber\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">74</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208431</millis>
+  <sequence>140</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>utils.Utils.getXmlPropertyValue is PASSED</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208431</millis>
+  <sequence>141</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : G_paymentHostRefNumber = utils.Utils.getXmlPropertyValue(response, \&amp;quot;paymentHostRefNumber\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208431</millis>
+  <sequence>142</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : G_billReferenceNo = utils.Utils.getXmlPropertyValue(response, \&amp;quot;paymentSystrace\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">75</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208433</millis>
+  <sequence>143</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>utils.Utils.getXmlPropertyValue is PASSED</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208433</millis>
+  <sequence>144</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : G_billReferenceNo = utils.Utils.getXmlPropertyValue(response, \&amp;quot;paymentSystrace\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208434</millis>
+  <sequence>145</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : try</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208434</millis>
+  <sequence>146</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/InternetBanking/tc-ServiceRequestPayment</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208434</millis>
+  <sequence>147</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/InternetBanking/tc-ServiceRequestPayment</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208436</millis>
+  <sequence>148</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Call Test Case &amp;apos;Test Cases/InternetBanking/tc-ServiceRequestPayment&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208437</millis>
+  <sequence>149</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : callTestCase(findTestCase(\&amp;quot;InternetBanking/tc-ServiceRequestPayment\&amp;quot;), [\&amp;quot;SERVICEID\&amp;quot;:SERVICEID, \&amp;quot;ACQUIRERID\&amp;quot;:ACQUIRERID, \&amp;quot;MALLID\&amp;quot;:MALLID, \&amp;quot;CHAINMALLID\&amp;quot;:CHAINMALLID, \&amp;quot;INVOICENUMBER\&amp;quot;:INVOICENUMBER, ... ], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208437</millis>
+  <sequence>150</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (G_responseServiceRequestPayment != \&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208438</millis>
+  <sequence>151</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = G_responseServiceRequestPayment</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208438</millis>
+  <sequence>152</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = G_responseServiceRequestPayment</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208438</millis>
+  <sequence>153</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : wordsComponents = \&amp;quot;\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208439</millis>
+  <sequence>154</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : wordsComponents = \&amp;quot;\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208440</millis>
+  <sequence>155</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : if (toString().toUpperCase() == \&amp;quot;EMPTY\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">35</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208443</millis>
+  <sequence>156</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (toString().toUpperCase() == \&amp;quot;EMPTY\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208444</millis>
+  <sequence>157</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : else if (NOTIFYSTATUS == \&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208445</millis>
+  <sequence>158</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : else if (NOTIFYSTATUS == \&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208447</millis>
+  <sequence>159</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : else</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">39</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208448</millis>
+  <sequence>160</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : wordsComponents = G_billReferenceNo + \&amp;quot;|\&amp;quot; + NOTIFYSTATUS.toString() + \&amp;quot;|\&amp;quot; + G_trxCode</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="startLine">40</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208449</millis>
+  <sequence>161</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : wordsComponents = G_billReferenceNo + \&amp;quot;|\&amp;quot; + NOTIFYSTATUS.toString() + \&amp;quot;|\&amp;quot; + G_trxCode</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208449</millis>
+  <sequence>162</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : else</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208449</millis>
+  <sequence>163</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : words = utils.Utils.generateSignatureBriCeria(wordsComponents)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">42</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208534</millis>
+  <sequence>164</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>utils.Utils.generateSignatureBriCeria is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208535</millis>
+  <sequence>165</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : words = utils.Utils.generateSignatureBriCeria(wordsComponents)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208535</millis>
+  <sequence>166</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : amountDouble = Double.parseDouble(JSON_AMOUNT.toString())</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">43</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208545</millis>
+  <sequence>168</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>if (G_responseServiceRequestPayment != \&amp;quot;\&amp;quot;) FAILED.\nReason:\njava.lang.NumberFormatException: empty String\n\tat java_lang_Double$parseDouble.call(Unknown Source)\n\tat TC01-Payment.run(TC01-Payment:43)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1579749202919.run(TempTestSuite1579749202919.groovy:35)\n</message>
+  <exception>
+    <message>java.lang.NumberFormatException: empty String</message>
+    <frame>
+      <class>java_lang_Double$parseDouble</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TC01-Payment</class>
+      <method>run</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>331</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>322</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>301</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>293</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>227</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1579749202919</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208545</millis>
+  <sequence>169</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : amountDouble = Double.parseDouble(JSON_AMOUNT.toString())</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208545</millis>
+  <sequence>170</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : if (G_responseServiceRequestPayment != \&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208546</millis>
+  <sequence>172</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/InternetBanking/BRI Ceria/TC01-Payment FAILED.\nReason:\njava.lang.NumberFormatException: empty String\n\tat java_lang_Double$parseDouble.call(Unknown Source)\n\tat TC01-Payment.run(TC01-Payment:43)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1579749202919.run(TempTestSuite1579749202919.groovy:35)\n</message>
+  <exception>
+    <message>java.lang.NumberFormatException: empty String</message>
+    <frame>
+      <class>java_lang_Double$parseDouble</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TC01-Payment</class>
+      <method>run</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>331</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>322</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>301</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>293</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>227</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1579749202919</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208570</millis>
+  <sequence>173</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/InternetBanking/BRI Ceria/TC01-Payment</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-01-23T10:13:28</date>
+  <millis>1579749208611</millis>
+  <sequence>174</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/InternetBanking/BRI Ceria/Payment</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

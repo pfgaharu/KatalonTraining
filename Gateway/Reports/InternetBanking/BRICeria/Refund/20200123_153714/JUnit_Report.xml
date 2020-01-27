@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Refund" time="13" tests="0" failures="0" errors="1">
+   <testsuite name="Refund" tests="0" failures="0" errors="1" time="13" timestamp="2020-01-23 15:37:17" hostname="prant - 172.17.4.139" id="Test Suites/InternetBanking/BRICeria/Refund">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/prant/project/gateway-automatedtest/Gateway/Reports/InternetBanking/BRICeria/Refund/20200123_153714"/>
+         <property name="logFiles" value="/Users/prant/project/gateway-automatedtest/Gateway/Reports/InternetBanking/BRICeria/Refund/20200123_153714/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="prant - 172.17.4.139"/>
+         <property name="hostAddress" value="172.17.4.139"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="6.2.0.1"/>
+      </properties>
+      <testcase name="Test Cases/Cancellation/BRI Ceria/TC01-SuccessRefund" classname="Test Cases/Cancellation/BRI Ceria/TC01-SuccessRefund" status="ERROR">
+         <error type="ERROR" message="Test Cases/Cancellation/BRI Ceria/TC01-SuccessRefund FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: AMOUNT for class: Script1579577889628
+	at TC01-SuccessRefund.run(TC01-SuccessRefund:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579768634737.run(TempTestSuite1579768634737.groovy:35)
+"/>
+         <system-out><![CDATA[2020-01-23 15:37:18 - [TEST_CASE][ERROR] - Test Cases/Cancellation/BRI Ceria/TC01-SuccessRefund: Test Cases/Cancellation/BRI Ceria/TC01-SuccessRefund FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: AMOUNT for class: Script1579577889628
+	at TC01-SuccessRefund.run(TC01-SuccessRefund:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579768634737.run(TempTestSuite1579768634737.groovy:35)
+
+
+2020-01-23 15:37:18 - [TEST_STEP][PASSED] - INVOICENUMBER = Utils.generateInvoice(): null
+
+2020-01-23 15:37:18 - [TEST_STEP][PASSED] - sessionId = Utils.generateInvoice() + "321": null
+
+2020-01-23 15:37:18 - [TEST_STEP][PASSED] - refidmerchant = Utils.generateInvoice() + "123": null
+
+2020-01-23 15:37:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("InternetBanking/BRI Ceria/TC01-Payment"), ["SERVICEID":"1", "ACQUIRERID":"1024", "MALLID":"1", "CHAINMALLID":"", "INVOICENUMBER":INVOICENUMBER, "CURRENCY":"IDR", "AMOUNT":"600000.00", ... ], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/InternetBanking/BRI Ceria/TC01-Payment' successfully
+
+2020-01-23 15:37:18 - [TEST_CASE][PASSED] - Test Cases/InternetBanking/BRI Ceria/TC01-Payment: Test Cases/InternetBanking/BRI Ceria/TC01-Payment
+
+2020-01-23 15:37:19 - [TEST_STEP][PASSED] - containerEnv = System.getenv("CONTAINER_ENV"): null
+
+2020-01-23 15:37:19 - [TEST_STEP][PASSED] - println("CONTAINER_DEV: " + containerEnv): null
+
+2020-01-23 15:37:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("InternetBanking/tc-ServiceRequestPayment"), ["SERVICEID":SERVICEID, "ACQUIRERID":ACQUIRERID, "MALLID":MALLID, "CHAINMALLID":CHAINMALLID, "INVOICENUMBER":INVOICENUMBER, ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/InternetBanking/tc-ServiceRequestPayment' successfully
+
+2020-01-23 15:37:19 - [TEST_CASE][PASSED] - Test Cases/InternetBanking/tc-ServiceRequestPayment: Test Cases/InternetBanking/tc-ServiceRequestPayment
+
+2020-01-23 15:37:20 - [TEST_STEP][PASSED] - containerEnv = System.getenv("CONTAINER_ENV"): null
+
+2020-01-23 15:37:20 - [TEST_STEP][PASSED] - println("CONTAINER_DEV: " + containerEnv): null
+
+2020-01-23 15:37:20 - [TEST_STEP][PASSED] - paymentReq = findTestObject("InternetBanking/or-ServiceRequestPayment", ["SERVICEID":SERVICEID, "ACQUIRERID":ACQUIRERID, "MALLID":MALLID, "CHAINMALLID":CHAINMALLID, "INVOICENUMBER":INVOICENUMBER, ... ]): null
+
+2020-01-23 15:37:20 - [TEST_STEP][PASSED] - response = sendRequest(paymentReq): Send request successfully
+
+2020-01-23 15:37:28 - [MESSAGE][INFO] - HAR: /Users/prant/project/gateway-automatedtest/Gateway/Reports/InternetBanking/BRICeria/Refund/20200123_153714/requests/main/0.har
+
+2020-01-23 15:37:28 - [MESSAGE][PASSED] - Send request successfully
+
+2020-01-23 15:37:28 - [TEST_STEP][PASSED] - comment(response.getResponseBodyContent()): <MIBPaymentResponse>
+  <mallId>1</mallId>
+  <trxCode>968e0034eb81f534d77596e0e2d3571f3927708e</trxCode>
+  <auth1>085722915368</auth1>
+  <invoiceNumber>1579768638773</invoiceNumber>
+  <amount>600000.00</amount>
+  <currency>IDR</currency>
+  <sessionId>gy7a9f79abt7f9af97tfd89afdafdsa</sessionId>
+  <paymentDate>20200123223723</paymentDate>
+  <result>REDIRECT</result>
+  <approvalCode>5e295bac44b422673b991a32</approvalCode>
+  <message>PLEASE REDIRECT TO redirectUrl FOR CONTINUE THE PAYMENT</message>
+  <redirectUrl>http://ceria-payment-sandbox.bri.co.id:3001/simulation/5e295bac44b422673b991a32</redirectUrl>
+  <redirectParameter/>
+  <paymentSystrace>8132</paymentSystrace>
+</MIBPaymentResponse>
+
+2020-01-23 15:37:28 - [MESSAGE][INFO] - <MIBPaymentResponse>
+  <mallId>1</mallId>
+  <trxCode>968e0034eb81f534d77596e0e2d3571f3927708e</trxCode>
+  <auth1>085722915368</auth1>
+  <invoiceNumber>1579768638773</invoiceNumber>
+  <amount>600000.00</amount>
+  <currency>IDR</currency>
+  <sessionId>gy7a9f79abt7f9af97tfd89afdafdsa</sessionId>
+  <paymentDate>20200123223723</paymentDate>
+  <result>REDIRECT</result>
+  <approvalCode>5e295bac44b422673b991a32</approvalCode>
+  <message>PLEASE REDIRECT TO redirectUrl FOR CONTINUE THE PAYMENT</message>
+  <redirectUrl>http://ceria-payment-sandbox.bri.co.id:3001/simulation/5e295bac44b422673b991a32</redirectUrl>
+  <redirectParameter/>
+  <paymentSystrace>8132</paymentSystrace>
+</MIBPaymentResponse>
+
+2020-01-23 15:37:28 - [TEST_STEP][PASSED] - println(response.getStatusCode()): null
+
+2020-01-23 15:37:28 - [TEST_STEP][PASSED] - G_responseServiceRequestPayment = "": null
+
+2020-01-23 15:37:29 - [TEST_STEP][PASSED] - try: utils.Utils.getXmlPropertyValue is PASSED
+
+2020-01-23 15:37:29 - [TEST_STEP][PASSED] - response.setContentType("text/xml"): null
+
+2020-01-23 15:37:29 - [TEST_STEP][PASSED] - verifyElementText(response, "MIBPaymentResponse.mallId", MALLID): Verify element text successfully
+
+2020-01-23 15:37:29 - [MESSAGE][PASSED] - Verify element text successfully
+
+2020-01-23 15:37:29 - [TEST_STEP][PASSED] - G_responseServiceRequestPayment = response: null
+
+2020-01-23 15:37:29 - [TEST_STEP][PASSED] - G_invoiceNumber = utils.Utils.getXmlPropertyValue(response, "invoiceNumber"): utils.Utils.getXmlPropertyValue is PASSED
+
+2020-01-23 15:37:29 - [MESSAGE][PASSED] - utils.Utils.getXmlPropertyValue is PASSED
+
+2020-01-23 15:37:29 - [TEST_STEP][PASSED] - G_trxCode = utils.Utils.getXmlPropertyValue(response, "trxCode"): utils.Utils.getXmlPropertyValue is PASSED
+
+2020-01-23 15:37:29 - [MESSAGE][PASSED] - utils.Utils.getXmlPropertyValue is PASSED
+
+2020-01-23 15:37:29 - [TEST_STEP][PASSED] - G_redirectUrl = utils.Utils.getXmlPropertyValue(response, "redirectUrl"): utils.Utils.getXmlPropertyValue is PASSED
+
+2020-01-23 15:37:29 - [MESSAGE][PASSED] - utils.Utils.getXmlPropertyValue is PASSED
+
+2020-01-23 15:37:29 - [TEST_STEP][PASSED] - G_paymentHostRefNumber = utils.Utils.getXmlPropertyValue(response, "paymentHostRefNumber"): utils.Utils.getXmlPropertyValue is PASSED
+
+2020-01-23 15:37:29 - [MESSAGE][PASSED] - utils.Utils.getXmlPropertyValue is PASSED
+
+2020-01-23 15:37:29 - [TEST_STEP][PASSED] - G_billReferenceNo = utils.Utils.getXmlPropertyValue(response, "paymentSystrace"): utils.Utils.getXmlPropertyValue is PASSED
+
+2020-01-23 15:37:29 - [MESSAGE][PASSED] - utils.Utils.getXmlPropertyValue is PASSED
+
+2020-01-23 15:37:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/InternetBanking/tc-ServiceRequestPayment' successfully
+
+2020-01-23 15:37:29 - [TEST_STEP][PASSED] - if (G_responseServiceRequestPayment != ""): Actual text 'Payment is success' and expected text 'Payment is success' are matched 
+
+2020-01-23 15:37:29 - [TEST_STEP][PASSED] - response = G_responseServiceRequestPayment: null
+
+2020-01-23 15:37:29 - [TEST_STEP][PASSED] - wordsComponents = "": null
+
+2020-01-23 15:37:29 - [TEST_STEP][PASSED] - if (toString().toUpperCase() == "EMPTY"): null
+
+2020-01-23 15:37:29 - [TEST_STEP][PASSED] - else if (NOTIFYSTATUS == ""): null
+
+2020-01-23 15:37:29 - [TEST_STEP][PASSED] - else: null
+
+2020-01-23 15:37:29 - [TEST_STEP][PASSED] - wordsComponents = G_billReferenceNo + "|" + NOTIFYSTATUS.toString() + "|" + G_trxCode: null
+
+2020-01-23 15:37:29 - [TEST_STEP][PASSED] - words = utils.Utils.generateSignatureBriCeria(wordsComponents): utils.Utils.generateSignatureBriCeria is PASSED
+
+2020-01-23 15:37:29 - [MESSAGE][PASSED] - utils.Utils.generateSignatureBriCeria is PASSED
+
+2020-01-23 15:37:29 - [TEST_STEP][PASSED] - amountDouble = Double.parseDouble(JSON_AMOUNT.toString()): null
+
+2020-01-23 15:37:29 - [TEST_STEP][PASSED] - notifyPayment = findTestObject("InternetBanking/BRICeria/or-notifypayment", ["NOTIFYSTATUS":JSON_STATUS, "MESSAGE":"", "TRANSACTIONID":G_billReferenceNo, "ORDERID":G_billReferenceNo, "AMOUNT":amountDouble]): null
+
+2020-01-23 15:37:29 - [TEST_STEP][PASSED] - notifyPayment.setRestUrl(utils.Utils.generateEndPoint(System.getenv("CONTAINER_ENV"), "MIB/BRICeriaNotify?words=" + words)): utils.Utils.generateEndPoint is PASSED
+
+2020-01-23 15:37:29 - [MESSAGE][PASSED] - utils.Utils.generateEndPoint is PASSED
+
+2020-01-23 15:37:29 - [TEST_STEP][PASSED] - response = sendRequest(notifyPayment): Send request successfully
+
+2020-01-23 15:37:30 - [MESSAGE][INFO] - HAR: /Users/prant/project/gateway-automatedtest/Gateway/Reports/InternetBanking/BRICeria/Refund/20200123_153714/requests/main/1.har
+
+2020-01-23 15:37:30 - [MESSAGE][PASSED] - Send request successfully
+
+2020-01-23 15:37:30 - [TEST_STEP][PASSED] - response.setContentType("application/json"): null
+
+2020-01-23 15:37:30 - [TEST_STEP][PASSED] - comment(response.getResponseText()): {"status":"OK","message":"Payment is success"}
+
+2020-01-23 15:37:30 - [MESSAGE][INFO] - {"status":"OK","message":"Payment is success"}
+
+2020-01-23 15:37:30 - [TEST_STEP][PASSED] - responseBodyObject = utils.Utils.jsonParsingToMap(response): utils.Utils.jsonParsingToMap is PASSED
+
+2020-01-23 15:37:30 - [MESSAGE][PASSED] - utils.Utils.jsonParsingToMap is PASSED
+
+2020-01-23 15:37:30 - [TEST_STEP][PASSED] - if (responseBodyObject != null): Actual text 'Payment is success' and expected text 'Payment is success' are matched 
+
+2020-01-23 15:37:30 - [TEST_STEP][PASSED] - verifyMatch(status, RESPONSE_NOTIFY_STATUS, false, STOP_ON_FAILURE): Actual text 'OK' and expected text 'OK' are matched 
+
+2020-01-23 15:37:30 - [MESSAGE][PASSED] - Actual text 'OK' and expected text 'OK' are matched 
+
+2020-01-23 15:37:30 - [TEST_STEP][PASSED] - verifyMatch(message, RESPONSE_NOTIFY_MESSAGE, false, STOP_ON_FAILURE): Actual text 'Payment is success' and expected text 'Payment is success' are matched 
+
+2020-01-23 15:37:30 - [MESSAGE][PASSED] - Actual text 'Payment is success' and expected text 'Payment is success' are matched 
+
+2020-01-23 15:37:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/InternetBanking/BRI Ceria/TC01-Payment' successfully
+
+2020-01-23 15:37:30 - [TEST_STEP][PASSED] - com.database.DBHelper.connectDBPostgres(): com.database.DBHelper.connectDBPostgres is PASSED
+
+2020-01-23 15:37:30 - [MESSAGE][PASSED] - com.database.DBHelper.connectDBPostgres is PASSED
+
+2020-01-23 15:37:30 - [TEST_STEP][PASSED] - com.database.DBHelper.execute("update transaction set payment_host_auth_id = '" + paymentHostAuthId + "' where invoice_number = '" + INVOICENUMBER + "'"): com.database.DBHelper.execute is PASSED
+
+2020-01-23 15:37:30 - [MESSAGE][PASSED] - com.database.DBHelper.execute is PASSED
+
+2020-01-23 15:37:30 - [TEST_STEP][PASSED] - com.database.DBHelper.execute("update acquirer set void_url = '" + refundUrlBriCeria + "' where id = '1024'"): com.database.DBHelper.execute is PASSED
+
+2020-01-23 15:37:30 - [MESSAGE][PASSED] - com.database.DBHelper.execute is PASSED
+
+2020-01-23 15:37:30 - [TEST_STEP][PASSED] - sb = new java.lang.StringBuilder(): null
+
+2020-01-23 15:37:30 - [TEST_STEP][ERROR] - append(refidmerchant).append(sessionId): append(refidmerchant).append(sessionId) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: AMOUNT for class: Script1579577889628
+	at TC01-SuccessRefund.run(TC01-SuccessRefund:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579768634737.run(TempTestSuite1579768634737.groovy:35)
+
+
+2020-01-23 15:37:30 - [MESSAGE][ERROR] - append(refidmerchant).append(sessionId) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: AMOUNT for class: Script1579577889628
+	at TC01-SuccessRefund.run(TC01-SuccessRefund:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579768634737.run(TempTestSuite1579768634737.groovy:35)]]></system-out>
+         <system-err><![CDATA[2020-01-23 15:37:18 - [TEST_CASE][ERROR] - Test Cases/Cancellation/BRI Ceria/TC01-SuccessRefund: Test Cases/Cancellation/BRI Ceria/TC01-SuccessRefund FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: AMOUNT for class: Script1579577889628
+	at TC01-SuccessRefund.run(TC01-SuccessRefund:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579768634737.run(TempTestSuite1579768634737.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-01-23 15:37:17 - [TEST_SUITE][ERROR] - Refund: Test Cases/Cancellation/BRI Ceria/TC01-SuccessRefund FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: AMOUNT for class: Script1579577889628
+	at TC01-SuccessRefund.run(TC01-SuccessRefund:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579768634737.run(TempTestSuite1579768634737.groovy:35)]]></system-out>
+      <system-err><![CDATA[2020-01-23 15:37:17 - [TEST_SUITE][ERROR] - Refund: Test Cases/Cancellation/BRI Ceria/TC01-SuccessRefund FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: AMOUNT for class: Script1579577889628
+	at TC01-SuccessRefund.run(TC01-SuccessRefund:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579768634737.run(TempTestSuite1579768634737.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

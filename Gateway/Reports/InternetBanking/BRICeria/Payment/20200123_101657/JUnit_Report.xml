@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Payment" time="3" tests="0" failures="0" errors="1">
+   <testsuite name="Payment" tests="0" failures="0" errors="1" time="3" timestamp="2020-01-23 10:16:59" hostname="prant - 172.17.4.139" id="Test Suites/InternetBanking/BRICeria/Payment">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/prant/project/gateway-automatedtest/Gateway/Reports/InternetBanking/BRICeria/Payment/20200123_101657"/>
+         <property name="logFiles" value="/Users/prant/project/gateway-automatedtest/Gateway/Reports/InternetBanking/BRICeria/Payment/20200123_101657/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="prant - 172.17.4.139"/>
+         <property name="hostAddress" value="172.17.4.139"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.2.2.1"/>
+      </properties>
+      <testcase name="Test Cases/InternetBanking/BRI Ceria/TC01-Payment" classname="Test Cases/InternetBanking/BRI Ceria/TC01-Payment" status="ERROR">
+         <error type="ERROR" message="Test Cases/InternetBanking/BRI Ceria/TC01-Payment FAILED.
+Reason:
+java.lang.NumberFormatException: empty String
+	at java_lang_Double$parseDouble.call(Unknown Source)
+	at TC01-Payment.run(TC01-Payment:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579749417261.run(TempTestSuite1579749417261.groovy:35)
+"/>
+         <system-out><![CDATA[2020-01-23 10:16:59 - [TEST_CASE][ERROR] - Test Cases/InternetBanking/BRI Ceria/TC01-Payment: Test Cases/InternetBanking/BRI Ceria/TC01-Payment FAILED.
+Reason:
+java.lang.NumberFormatException: empty String
+	at java_lang_Double$parseDouble.call(Unknown Source)
+	at TC01-Payment.run(TC01-Payment:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579749417261.run(TempTestSuite1579749417261.groovy:35)
+
+
+2020-01-23 10:16:59 - [TEST_STEP][PASSED] - containerEnv = System.getenv("CONTAINER_ENV"): null
+
+2020-01-23 10:17:00 - [TEST_STEP][PASSED] - println("CONTAINER_DEV: " + containerEnv): null
+
+2020-01-23 10:17:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("InternetBanking/tc-ServiceRequestPayment"), ["SERVICEID":SERVICEID, "ACQUIRERID":ACQUIRERID, "MALLID":MALLID, "CHAINMALLID":CHAINMALLID, "INVOICENUMBER":INVOICENUMBER, ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/InternetBanking/tc-ServiceRequestPayment' successfully
+
+2020-01-23 10:17:00 - [TEST_CASE][PASSED] - Test Cases/InternetBanking/tc-ServiceRequestPayment: Test Cases/InternetBanking/tc-ServiceRequestPayment
+
+2020-01-23 10:17:00 - [TEST_STEP][PASSED] - containerEnv = System.getenv("CONTAINER_ENV"): null
+
+2020-01-23 10:17:00 - [TEST_STEP][PASSED] - println("CONTAINER_DEV: " + containerEnv): null
+
+2020-01-23 10:17:00 - [TEST_STEP][PASSED] - paymentReq = findTestObject("InternetBanking/or-ServiceRequestPayment", ["SERVICEID":SERVICEID, "ACQUIRERID":ACQUIRERID, "MALLID":MALLID, "CHAINMALLID":CHAINMALLID, "INVOICENUMBER":INVOICENUMBER, ... ]): null
+
+2020-01-23 10:17:00 - [TEST_STEP][PASSED] - response = sendRequest(paymentReq): Send request successfully
+
+2020-01-23 10:17:01 - [MESSAGE][INFO] - HAR: /Users/prant/project/gateway-automatedtest/Gateway/Reports/InternetBanking/BRICeria/Payment/20200123_101657/requests/main/0.har
+
+2020-01-23 10:17:01 - [MESSAGE][PASSED] - Send request successfully
+
+2020-01-23 10:17:01 - [TEST_STEP][PASSED] - comment(response.getResponseBodyContent()): <MIBPaymentResponse>
+  <mallId>1</mallId>
+  <trxCode>e8f731d4935302dd3c2708294df2b2863b48b459</trxCode>
+  <auth1>085722915368</auth1>
+  <invoiceNumber>a1VwBe6U1lyZqmF1</invoiceNumber>
+  <amount>600000.00</amount>
+  <currency>IDR</currency>
+  <sessionId>gy7a9f79abt7f9af97tfd89afdafdsa</sessionId>
+  <paymentDate>20200123171701</paymentDate>
+  <result>REDIRECT</result>
+  <approvalCode>5e291092feb2bc5bd0ac11ed</approvalCode>
+  <message>PLEASE REDIRECT TO redirectUrl FOR CONTINUE THE PAYMENT</message>
+  <redirectUrl>http://ceria-payment-sandbox.bri.co.id:3001/simulation/5e291092feb2bc5bd0ac11ed</redirectUrl>
+  <redirectParameter/>
+  <paymentSystrace>8109</paymentSystrace>
+</MIBPaymentResponse>
+
+2020-01-23 10:17:01 - [MESSAGE][INFO] - <MIBPaymentResponse>
+  <mallId>1</mallId>
+  <trxCode>e8f731d4935302dd3c2708294df2b2863b48b459</trxCode>
+  <auth1>085722915368</auth1>
+  <invoiceNumber>a1VwBe6U1lyZqmF1</invoiceNumber>
+  <amount>600000.00</amount>
+  <currency>IDR</currency>
+  <sessionId>gy7a9f79abt7f9af97tfd89afdafdsa</sessionId>
+  <paymentDate>20200123171701</paymentDate>
+  <result>REDIRECT</result>
+  <approvalCode>5e291092feb2bc5bd0ac11ed</approvalCode>
+  <message>PLEASE REDIRECT TO redirectUrl FOR CONTINUE THE PAYMENT</message>
+  <redirectUrl>http://ceria-payment-sandbox.bri.co.id:3001/simulation/5e291092feb2bc5bd0ac11ed</redirectUrl>
+  <redirectParameter/>
+  <paymentSystrace>8109</paymentSystrace>
+</MIBPaymentResponse>
+
+2020-01-23 10:17:01 - [TEST_STEP][PASSED] - println(response.getStatusCode()): null
+
+2020-01-23 10:17:01 - [TEST_STEP][PASSED] - G_responseServiceRequestPayment = "": null
+
+2020-01-23 10:17:02 - [TEST_STEP][PASSED] - try: utils.Utils.getXmlPropertyValue is PASSED
+
+2020-01-23 10:17:02 - [TEST_STEP][PASSED] - response.setContentType("text/xml"): null
+
+2020-01-23 10:17:02 - [TEST_STEP][PASSED] - verifyElementText(response, "MIBPaymentResponse.mallId", MALLID): Verify element text successfully
+
+2020-01-23 10:17:02 - [MESSAGE][PASSED] - Verify element text successfully
+
+2020-01-23 10:17:02 - [TEST_STEP][PASSED] - G_responseServiceRequestPayment = response: null
+
+2020-01-23 10:17:02 - [TEST_STEP][PASSED] - G_invoiceNumber = utils.Utils.getXmlPropertyValue(response, "invoiceNumber"): utils.Utils.getXmlPropertyValue is PASSED
+
+2020-01-23 10:17:02 - [MESSAGE][PASSED] - utils.Utils.getXmlPropertyValue is PASSED
+
+2020-01-23 10:17:02 - [TEST_STEP][PASSED] - G_trxCode = utils.Utils.getXmlPropertyValue(response, "trxCode"): utils.Utils.getXmlPropertyValue is PASSED
+
+2020-01-23 10:17:02 - [MESSAGE][PASSED] - utils.Utils.getXmlPropertyValue is PASSED
+
+2020-01-23 10:17:02 - [TEST_STEP][PASSED] - G_redirectUrl = utils.Utils.getXmlPropertyValue(response, "redirectUrl"): utils.Utils.getXmlPropertyValue is PASSED
+
+2020-01-23 10:17:02 - [MESSAGE][PASSED] - utils.Utils.getXmlPropertyValue is PASSED
+
+2020-01-23 10:17:02 - [TEST_STEP][PASSED] - G_paymentHostRefNumber = utils.Utils.getXmlPropertyValue(response, "paymentHostRefNumber"): utils.Utils.getXmlPropertyValue is PASSED
+
+2020-01-23 10:17:02 - [MESSAGE][PASSED] - utils.Utils.getXmlPropertyValue is PASSED
+
+2020-01-23 10:17:02 - [TEST_STEP][PASSED] - G_billReferenceNo = utils.Utils.getXmlPropertyValue(response, "paymentSystrace"): utils.Utils.getXmlPropertyValue is PASSED
+
+2020-01-23 10:17:02 - [MESSAGE][PASSED] - utils.Utils.getXmlPropertyValue is PASSED
+
+2020-01-23 10:17:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/InternetBanking/tc-ServiceRequestPayment' successfully
+
+2020-01-23 10:17:02 - [TEST_STEP][ERROR] - if (G_responseServiceRequestPayment != ""): if (G_responseServiceRequestPayment != "") FAILED.
+Reason:
+java.lang.NumberFormatException: empty String
+	at java_lang_Double$parseDouble.call(Unknown Source)
+	at TC01-Payment.run(TC01-Payment:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579749417261.run(TempTestSuite1579749417261.groovy:35)
+
+
+2020-01-23 10:17:02 - [TEST_STEP][PASSED] - response = G_responseServiceRequestPayment: null
+
+2020-01-23 10:17:02 - [TEST_STEP][PASSED] - wordsComponents = "": null
+
+2020-01-23 10:17:02 - [TEST_STEP][PASSED] - if (toString().toUpperCase() == "EMPTY"): null
+
+2020-01-23 10:17:02 - [TEST_STEP][PASSED] - else if (NOTIFYSTATUS == ""): null
+
+2020-01-23 10:17:02 - [TEST_STEP][PASSED] - else: null
+
+2020-01-23 10:17:02 - [TEST_STEP][PASSED] - wordsComponents = G_billReferenceNo + "|" + NOTIFYSTATUS.toString() + "|" + G_trxCode: null
+
+2020-01-23 10:17:02 - [TEST_STEP][PASSED] - words = utils.Utils.generateSignatureBriCeria(wordsComponents): utils.Utils.generateSignatureBriCeria is PASSED
+
+2020-01-23 10:17:02 - [MESSAGE][PASSED] - utils.Utils.generateSignatureBriCeria is PASSED
+
+2020-01-23 10:17:02 - [TEST_STEP][ERROR] - amountDouble = Double.parseDouble(JSON_AMOUNT.toString()): if (G_responseServiceRequestPayment != "") FAILED.
+Reason:
+java.lang.NumberFormatException: empty String
+	at java_lang_Double$parseDouble.call(Unknown Source)
+	at TC01-Payment.run(TC01-Payment:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579749417261.run(TempTestSuite1579749417261.groovy:35)
+
+
+2020-01-23 10:17:02 - [MESSAGE][ERROR] - if (G_responseServiceRequestPayment != "") FAILED.
+Reason:
+java.lang.NumberFormatException: empty String
+	at java_lang_Double$parseDouble.call(Unknown Source)
+	at TC01-Payment.run(TC01-Payment:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579749417261.run(TempTestSuite1579749417261.groovy:35)]]></system-out>
+         <system-err><![CDATA[2020-01-23 10:16:59 - [TEST_CASE][ERROR] - Test Cases/InternetBanking/BRI Ceria/TC01-Payment: Test Cases/InternetBanking/BRI Ceria/TC01-Payment FAILED.
+Reason:
+java.lang.NumberFormatException: empty String
+	at java_lang_Double$parseDouble.call(Unknown Source)
+	at TC01-Payment.run(TC01-Payment:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579749417261.run(TempTestSuite1579749417261.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-01-23 10:16:59 - [TEST_SUITE][ERROR] - Payment: Test Cases/InternetBanking/BRI Ceria/TC01-Payment FAILED.
+Reason:
+java.lang.NumberFormatException: empty String
+	at java_lang_Double$parseDouble.call(Unknown Source)
+	at TC01-Payment.run(TC01-Payment:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579749417261.run(TempTestSuite1579749417261.groovy:35)]]></system-out>
+      <system-err><![CDATA[2020-01-23 10:16:59 - [TEST_SUITE][ERROR] - Payment: Test Cases/InternetBanking/BRI Ceria/TC01-Payment FAILED.
+Reason:
+java.lang.NumberFormatException: empty String
+	at java_lang_Double$parseDouble.call(Unknown Source)
+	at TC01-Payment.run(TC01-Payment:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1579749417261.run(TempTestSuite1579749417261.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

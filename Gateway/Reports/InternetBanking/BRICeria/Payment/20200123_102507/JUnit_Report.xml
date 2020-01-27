@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Payment" time="4" tests="1" failures="0" errors="0">
+   <testsuite name="Payment" tests="1" failures="0" errors="0" time="4" timestamp="2020-01-23 10:25:09" hostname="prant - 172.17.100.63" id="Test Suites/InternetBanking/BRICeria/Payment">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/prant/project/gateway-automatedtest/Gateway/Reports/InternetBanking/BRICeria/Payment/20200123_102507"/>
+         <property name="logFiles" value="/Users/prant/project/gateway-automatedtest/Gateway/Reports/InternetBanking/BRICeria/Payment/20200123_102507/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="prant - 172.17.100.63"/>
+         <property name="hostAddress" value="172.17.100.63"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.2.2.1"/>
+      </properties>
+      <testcase name="Test Cases/InternetBanking/BRI Ceria/TC01-Payment" classname="Test Cases/InternetBanking/BRI Ceria/TC01-Payment" status="PASSED">
+         <system-out><![CDATA[2020-01-23 10:25:09 - [TEST_CASE][PASSED] - Test Cases/InternetBanking/BRI Ceria/TC01-Payment: Test Cases/InternetBanking/BRI Ceria/TC01-Payment
+
+2020-01-23 10:25:10 - [TEST_STEP][PASSED] - containerEnv = System.getenv("CONTAINER_ENV"): null
+
+2020-01-23 10:25:10 - [TEST_STEP][PASSED] - println("CONTAINER_DEV: " + containerEnv): null
+
+2020-01-23 10:25:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("InternetBanking/tc-ServiceRequestPayment"), ["SERVICEID":SERVICEID, "ACQUIRERID":ACQUIRERID, "MALLID":MALLID, "CHAINMALLID":CHAINMALLID, "INVOICENUMBER":INVOICENUMBER, ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/InternetBanking/tc-ServiceRequestPayment' successfully
+
+2020-01-23 10:25:10 - [TEST_CASE][PASSED] - Test Cases/InternetBanking/tc-ServiceRequestPayment: Test Cases/InternetBanking/tc-ServiceRequestPayment
+
+2020-01-23 10:25:10 - [TEST_STEP][PASSED] - containerEnv = System.getenv("CONTAINER_ENV"): null
+
+2020-01-23 10:25:10 - [TEST_STEP][PASSED] - println("CONTAINER_DEV: " + containerEnv): null
+
+2020-01-23 10:25:10 - [TEST_STEP][PASSED] - paymentReq = findTestObject("InternetBanking/or-ServiceRequestPayment", ["SERVICEID":SERVICEID, "ACQUIRERID":ACQUIRERID, "MALLID":MALLID, "CHAINMALLID":CHAINMALLID, "INVOICENUMBER":INVOICENUMBER, ... ]): null
+
+2020-01-23 10:25:10 - [TEST_STEP][PASSED] - response = sendRequest(paymentReq): Send request successfully
+
+2020-01-23 10:25:12 - [MESSAGE][INFO] - HAR: /Users/prant/project/gateway-automatedtest/Gateway/Reports/InternetBanking/BRICeria/Payment/20200123_102507/requests/main/0.har
+
+2020-01-23 10:25:12 - [MESSAGE][PASSED] - Send request successfully
+
+2020-01-23 10:25:12 - [TEST_STEP][PASSED] - comment(response.getResponseBodyContent()): <MIBPaymentResponse>
+  <mallId>1</mallId>
+  <trxCode>c537b75e2a0d8c2941faf7e0191959d7b219c064</trxCode>
+  <auth1>085722915368</auth1>
+  <invoiceNumber>S8VwBe6U1lyZqm11</invoiceNumber>
+  <amount>600000.00</amount>
+  <currency>IDR</currency>
+  <sessionId>gy7a9f79abt7f9af97tfd89afdafdsa</sessionId>
+  <paymentDate>20200123172511</paymentDate>
+  <result>REDIRECT</result>
+  <approvalCode>5e29127cfeb2bc5bd0ac11f9</approvalCode>
+  <message>PLEASE REDIRECT TO redirectUrl FOR CONTINUE THE PAYMENT</message>
+  <redirectUrl>http://ceria-payment-sandbox.bri.co.id:3001/simulation/5e29127cfeb2bc5bd0ac11f9</redirectUrl>
+  <redirectParameter/>
+  <paymentSystrace>8111</paymentSystrace>
+</MIBPaymentResponse>
+
+2020-01-23 10:25:12 - [MESSAGE][INFO] - <MIBPaymentResponse>
+  <mallId>1</mallId>
+  <trxCode>c537b75e2a0d8c2941faf7e0191959d7b219c064</trxCode>
+  <auth1>085722915368</auth1>
+  <invoiceNumber>S8VwBe6U1lyZqm11</invoiceNumber>
+  <amount>600000.00</amount>
+  <currency>IDR</currency>
+  <sessionId>gy7a9f79abt7f9af97tfd89afdafdsa</sessionId>
+  <paymentDate>20200123172511</paymentDate>
+  <result>REDIRECT</result>
+  <approvalCode>5e29127cfeb2bc5bd0ac11f9</approvalCode>
+  <message>PLEASE REDIRECT TO redirectUrl FOR CONTINUE THE PAYMENT</message>
+  <redirectUrl>http://ceria-payment-sandbox.bri.co.id:3001/simulation/5e29127cfeb2bc5bd0ac11f9</redirectUrl>
+  <redirectParameter/>
+  <paymentSystrace>8111</paymentSystrace>
+</MIBPaymentResponse>
+
+2020-01-23 10:25:12 - [TEST_STEP][PASSED] - println(response.getStatusCode()): null
+
+2020-01-23 10:25:12 - [TEST_STEP][PASSED] - G_responseServiceRequestPayment = "": null
+
+2020-01-23 10:25:12 - [TEST_STEP][PASSED] - try: utils.Utils.getXmlPropertyValue is PASSED
+
+2020-01-23 10:25:12 - [TEST_STEP][PASSED] - response.setContentType("text/xml"): null
+
+2020-01-23 10:25:12 - [TEST_STEP][PASSED] - verifyElementText(response, "MIBPaymentResponse.mallId", MALLID): Verify element text successfully
+
+2020-01-23 10:25:12 - [MESSAGE][PASSED] - Verify element text successfully
+
+2020-01-23 10:25:12 - [TEST_STEP][PASSED] - G_responseServiceRequestPayment = response: null
+
+2020-01-23 10:25:12 - [TEST_STEP][PASSED] - G_invoiceNumber = utils.Utils.getXmlPropertyValue(response, "invoiceNumber"): utils.Utils.getXmlPropertyValue is PASSED
+
+2020-01-23 10:25:12 - [MESSAGE][PASSED] - utils.Utils.getXmlPropertyValue is PASSED
+
+2020-01-23 10:25:12 - [TEST_STEP][PASSED] - G_trxCode = utils.Utils.getXmlPropertyValue(response, "trxCode"): utils.Utils.getXmlPropertyValue is PASSED
+
+2020-01-23 10:25:12 - [MESSAGE][PASSED] - utils.Utils.getXmlPropertyValue is PASSED
+
+2020-01-23 10:25:12 - [TEST_STEP][PASSED] - G_redirectUrl = utils.Utils.getXmlPropertyValue(response, "redirectUrl"): utils.Utils.getXmlPropertyValue is PASSED
+
+2020-01-23 10:25:12 - [MESSAGE][PASSED] - utils.Utils.getXmlPropertyValue is PASSED
+
+2020-01-23 10:25:12 - [TEST_STEP][PASSED] - G_paymentHostRefNumber = utils.Utils.getXmlPropertyValue(response, "paymentHostRefNumber"): utils.Utils.getXmlPropertyValue is PASSED
+
+2020-01-23 10:25:12 - [MESSAGE][PASSED] - utils.Utils.getXmlPropertyValue is PASSED
+
+2020-01-23 10:25:12 - [TEST_STEP][PASSED] - G_billReferenceNo = utils.Utils.getXmlPropertyValue(response, "paymentSystrace"): utils.Utils.getXmlPropertyValue is PASSED
+
+2020-01-23 10:25:12 - [MESSAGE][PASSED] - utils.Utils.getXmlPropertyValue is PASSED
+
+2020-01-23 10:25:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/InternetBanking/tc-ServiceRequestPayment' successfully
+
+2020-01-23 10:25:12 - [TEST_STEP][PASSED] - if (G_responseServiceRequestPayment != ""): Actual text 'Payment is success' and expected text 'Payment is success' are matched 
+
+2020-01-23 10:25:12 - [TEST_STEP][PASSED] - response = G_responseServiceRequestPayment: null
+
+2020-01-23 10:25:12 - [TEST_STEP][PASSED] - wordsComponents = "": null
+
+2020-01-23 10:25:12 - [TEST_STEP][PASSED] - if (toString().toUpperCase() == "EMPTY"): null
+
+2020-01-23 10:25:12 - [TEST_STEP][PASSED] - else if (NOTIFYSTATUS == ""): null
+
+2020-01-23 10:25:12 - [TEST_STEP][PASSED] - else: null
+
+2020-01-23 10:25:12 - [TEST_STEP][PASSED] - wordsComponents = G_billReferenceNo + "|" + NOTIFYSTATUS.toString() + "|" + G_trxCode: null
+
+2020-01-23 10:25:12 - [TEST_STEP][PASSED] - words = utils.Utils.generateSignatureBriCeria(wordsComponents): utils.Utils.generateSignatureBriCeria is PASSED
+
+2020-01-23 10:25:12 - [MESSAGE][PASSED] - utils.Utils.generateSignatureBriCeria is PASSED
+
+2020-01-23 10:25:12 - [TEST_STEP][PASSED] - amountDouble = Double.parseDouble(JSON_AMOUNT.toString()): null
+
+2020-01-23 10:25:12 - [TEST_STEP][PASSED] - notifyPayment = findTestObject("InternetBanking/BRICeria/or-notifypayment", ["NOTIFYSTATUS":JSON_STATUS, "MESSAGE":"", "TRANSACTIONID":G_billReferenceNo, "ORDERID":G_billReferenceNo, "AMOUNT":amountDouble]): null
+
+2020-01-23 10:25:12 - [TEST_STEP][PASSED] - notifyPayment.setRestUrl(utils.Utils.generateEndPoint(System.getenv("CONTAINER_ENV"), "MIB/BRICeriaNotify?words=" + words)): utils.Utils.generateEndPoint is PASSED
+
+2020-01-23 10:25:12 - [MESSAGE][PASSED] - utils.Utils.generateEndPoint is PASSED
+
+2020-01-23 10:25:12 - [TEST_STEP][PASSED] - response = sendRequest(notifyPayment): Send request successfully
+
+2020-01-23 10:25:13 - [MESSAGE][INFO] - HAR: /Users/prant/project/gateway-automatedtest/Gateway/Reports/InternetBanking/BRICeria/Payment/20200123_102507/requests/main/1.har
+
+2020-01-23 10:25:13 - [MESSAGE][PASSED] - Send request successfully
+
+2020-01-23 10:25:13 - [TEST_STEP][PASSED] - response.setContentType("application/json"): null
+
+2020-01-23 10:25:13 - [TEST_STEP][PASSED] - comment(response.getResponseText()): {"status":"OK","message":"Payment is success"}
+
+2020-01-23 10:25:13 - [MESSAGE][INFO] - {"status":"OK","message":"Payment is success"}
+
+2020-01-23 10:25:13 - [TEST_STEP][PASSED] - responseBodyObject = utils.Utils.jsonParsingToMap(response): utils.Utils.jsonParsingToMap is PASSED
+
+2020-01-23 10:25:13 - [MESSAGE][PASSED] - utils.Utils.jsonParsingToMap is PASSED
+
+2020-01-23 10:25:13 - [TEST_STEP][PASSED] - if (responseBodyObject != null): Actual text 'Payment is success' and expected text 'Payment is success' are matched 
+
+2020-01-23 10:25:13 - [TEST_STEP][PASSED] - verifyMatch(status, RESPONSE_NOTIFY_STATUS, false, STOP_ON_FAILURE): Actual text 'OK' and expected text 'OK' are matched 
+
+2020-01-23 10:25:13 - [MESSAGE][PASSED] - Actual text 'OK' and expected text 'OK' are matched 
+
+2020-01-23 10:25:13 - [TEST_STEP][PASSED] - verifyMatch(message, RESPONSE_NOTIFY_MESSAGE, false, STOP_ON_FAILURE): Actual text 'Payment is success' and expected text 'Payment is success' are matched 
+
+2020-01-23 10:25:13 - [MESSAGE][PASSED] - Actual text 'Payment is success' and expected text 'Payment is success' are matched]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-01-23 10:25:09 - [TEST_SUITE][PASSED] - Payment: Test Cases/InternetBanking/BRI Ceria/TC01-Payment]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
